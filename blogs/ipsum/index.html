@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="Your description">
 	<meta name="author" content="Raula">
-	<meta name="generator" content="Hugo 0.79.0" />
+	<meta name="generator" content="Hugo 0.75.1" />
 	<title>Ipsum &middot; Raula Gaikovina Kula</title>
 	<!-- Stylesheets -->
 	
@@ -76,7 +76,11 @@
                             
                                 <span class="image main"><img src="/img/blogs/pic10.jpg" alt="" /></span>
                             
-                            
+                            <p>This is a test</p>
+<p>{{ range .Site.Data.johnpatitucci}}
+{{ partial &ldquo;artist.html&rdquo; . }}
+{{ end }}</p>
+
                         </div>
                     </section>
             <!-- Disqus Inject -->

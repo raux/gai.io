@@ -40,7 +40,8 @@
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://raux.github.io/gai.io/blogs/ipsum/</guid>
-      <description></description>
+      <description>This is a test
+{{ range .Site.Data.johnpatitucci}} {{ partial &amp;ldquo;artist.html&amp;rdquo; . }} {{ end }}</description>
     </item>
     
   </channel>
